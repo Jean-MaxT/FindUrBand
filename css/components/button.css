@@ -1,0 +1,28 @@
+.btn-red {
+    background-color: #730800;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Rubik', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-button {
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.back-button:hover {
+    transform: scale(1.3);
+    color: #730800;
+}

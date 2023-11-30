@@ -1,0 +1,20 @@
+/* Largeur de la scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Fond de la track de la scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #3f3f3f;
+}
+
+/* Couleur de la poignée de la scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* Ajoute un effet de survol à la poignée de la scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
